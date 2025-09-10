@@ -195,7 +195,8 @@
       }).join('');
       document.getElementById('decoded-quote').textContent = decoded;
       if (decoded === originalQuote) {
-        document.getElementById('result').innerHTML = 'MESSAGE DECODED. PASSWORD: <strong>DARKPATH</strong>';
+        document.getElementById('result').innerHTML = 'MESSAGE DECODED. PASSWORD: <strong>DARKPATH</strong>' +
+        '<br/><br/> Go to the Cafe to continue.';
         document.getElementById('result').style.color = '#00ff00';
       } else {
         document.getElementById('result').innerHTML = 'DECODING ERROR. TRY AGAIN.';
